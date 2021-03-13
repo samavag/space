@@ -44,7 +44,6 @@ body {
 .header-nav a {
     color: #B3ACA2;
     margin: 0 10px;
-    display: inline-block;
     font-size: 12px;
     text-decoration: none;
 }
