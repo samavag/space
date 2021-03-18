@@ -151,6 +151,51 @@ body {
 }
 /* Content */
 .content {
-    padding: 30px;
-    display: flex;
+    padding: 30px 107px;
+    
+}
+.sam {
+    background-color: #FFF4D4;
+    width: 1047px;
+    height: 250px;
+    
+}
+.gev {
+}
+.gor {
+    padding: 69px 82px;
+}
+.p_1 {
+    font-size: 23px;
+    line-height: 2.5;
+    
+}
+.p_2 {
+    width: 356px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+.gffg {
+    padding: 6px;
+    color: blue;
+    background-color: #FFF4D4;
+    border: 1px solid blue;
+    border-radius: 4px;
+}
+.gffg:hover{
+    color: blue;
+} 
+.gffg:hover {
+    background-color: #0E6FFF;
+    color: #FFF4D4;
+}
+.gffg:active {
+    background-color: #083981;
+    color: #FFF4D4;
+}
+.artour {
+    margin: -98px;
+    padding: 0px 855px;
+    width: 93px;
+    height: 50px;
 }
