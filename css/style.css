@@ -3,6 +3,27 @@ body {
     color: #000000;
     font-family: "Open Sans", sans-serif;
 }
+p {
+    font-size: 12px;
+    line-height: 1.5;
+}
+.button {
+    padding: 6px;
+    color: white;
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 4px;
+} 
+.button:hover {
+    background-color: red;
+    border-color: red;
+}
+
+.button:active {
+    background-color: rgb(20, 5, 150);
+    border-color: rgb(20, 5, 150);
+}
+
 
 /* Header */
 .header {
@@ -149,53 +170,29 @@ body {
     text-decoration: none;
     font-size: 14px;
 }
-/* Content */
-.content {
-    padding: 30px 107px;
-    
-}
-.sam {
-    background-color: #FFF4D4;
-    width: 1047px;
-    height: 250px;
-    
-}
-.gev {
-}
-.gor {
-    padding: 69px 82px;
-}
-.p_1 {
+/* Headlines */
+.headline_3 {
     font-size: 23px;
     line-height: 2.5;
     
 }
-.p_2 {
-    width: 356px;
-    font-size: 12px;
-    line-height: 1.5;
-}
-.gffg {
-    padding: 6px;
-    color: blue;
+/* Cta */
+.cta {
     background-color: #FFF4D4;
-    border: 1px solid blue;
-    border-radius: 4px;
+    padding: 30px;
+    /* width: 1047px;
+    height: 250px; */
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
 }
-.gffg:hover{
-    color: blue;
-} 
-.gffg:hover {
-    background-color: #0E6FFF;
-    color: #FFF4D4;
+.cta-text {
+    width: 60%;
 }
-.gffg:active {
-    background-color: #083981;
-    color: #FFF4D4;
-}
-.artour {
-    margin: -98px;
-    padding: 0px 855px;
-    width: 93px;
-    height: 50px;
+.cta-button {
+    text-align: center;
+    width: 25%;
+    margin-top: 24px;
 }
