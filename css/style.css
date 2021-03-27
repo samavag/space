@@ -99,6 +99,7 @@ p {
     background-color: #23242A;
     font-size: 13px;
     color: #6d6c6c;
+    margin-top: 150px;
 }
 .footer-top {
     display: flex;
@@ -161,6 +162,9 @@ p {
     width: 95%;
     margin: 0 auto;
 }
+.container2 {
+    margin-top: 150px;
+} 
 .divider {
     height: 1px;
     background: #6d6c6c;
@@ -182,7 +186,7 @@ h3, .h3 {
     font-size: 3.25em;
 }
 h4, .h4 {
-    font-weight: 500;
+    font-weight: 900;
     font-size: 2.75em;
     line-height: 1.2;
 }
@@ -308,7 +312,44 @@ h4, .h4 {
 /* Players */
 .players {
     background: #D8F6FF;
-    height: 500px;
+    height: 1100px;
+}
+.player-video1 {
+    width: 330px;
+    margin: 14%;
+}
+.player-text1 {
+    margin-right: 6em;
+}
+.player-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.player-link {
+    margin-top: 18px;
+} 
+.link {
+    color: #0E6FFF;
+}
+
+.ghgh {
+    font-size: 13px;
+    max-width: 330px;
+    margin-top: 22px;
+}
+/* .Players2 */
+.player-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.player-text2 {
+    margin: 13%;
+}
+.player-video2 {
+    margin-right: 18em;
+    max-width: 300px;
 }
 
 @media (max-width: 1920px) {
