@@ -316,10 +316,12 @@ h4, .h4 {
 }
 .player-video1 {
     width: 330px;
-    margin: 14%;
+    margin: 14% 0% 0% 14% ;
 }
 .player-text1 {
-    margin-right: 6em;
+    margin-right: 21em;
+    margin-top: 110px;
+    font-size: 12px;
 }
 .player-1 {
     display: flex;
@@ -343,13 +345,18 @@ h4, .h4 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: -48px;
 }
 .player-text2 {
     margin: 13%;
+    margin-right: 5em;
+    font-size: 12px;
 }
 .player-video2 {
-    margin-right: 18em;
+    margin-right: 25em;
     max-width: 300px;
+}
+.player-video-nav {
 }
 
 @media (max-width: 1920px) {
