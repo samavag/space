@@ -356,9 +356,108 @@ h4, .h4 {
     margin-right: 25em;
     max-width: 300px;
 }
-.player-video-nav {
+/* Team */
+.team {
+    background-color: white;
+    width: 100%;
+    height: 850px;
+    margin-top: 100px;
 }
+.team-text {
+    text-align: center;
 
+}
+.convallis {
+    font-size: 14px;
+    margin-top: 15px;
+}
+.team-avatar {
+    width: 150px;
+    margin: 40px 300px ;
+} 
+
+.team-avatar-img {
+    display: flex;
+    justify-content: space-between;
+}
+.img1 {
+    margin: 5px;
+}
+.img2 {
+    margin: 5px;
+}
+.img3 {
+    margin: 5px;
+}
+.img4 {
+    margin: 5px;
+}
+.team-avatar-text {
+    display: flex;
+    justify-content: space-between;
+}
+.text1 {
+    margin: 8px;
+}
+.text2 {
+    margin: 8px;
+}
+.text3 {
+    margin: 8px;
+}
+.text4 {
+    margin: 8px;
+}
+.review-text {
+    text-align: center;
+    margin-top: 120px;
+}
+.avatar2{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 320px;
+}
+.avatar-text2 {
+    align-self: center;
+    font-size: 14px;
+
+}
+.avatar-name2 {
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.avatar-img2 {
+    border-radius: 50%;
+    overflow: hidden;
+}
+.avatar-img2 img {
+    max-width: 50px;
+}
+.gfgf {
+    text-align: center;
+    margin-top: 50px;
+}
+.avatar3{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 320px;
+}
+.avatar-text3 {
+    align-self: center;
+    font-size: 14px;
+
+}
+.avatar-name3 {
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.avatar-img3 {
+    border-radius: 50%;
+    overflow: hidden;
+}
+.avatar-img3 img {
+    max-width: 50px;
+}
 @media (max-width: 1920px) {
     .hero-inner {
         margin: auto;
@@ -386,7 +485,7 @@ h4, .h4 {
     .hero {
         display: block;
         height: auto;
-        padding: 0 15px;
+        padding: 0 ;
     }
     .hero-text {
         width: 100%;
